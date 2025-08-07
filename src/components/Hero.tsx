@@ -10,7 +10,7 @@ export default function Hero() {
 
   return (
     <section className="banner">
-      <header className="flex justify-between items-center text-white px-10 pt-10">
+      <header className="flex justify-between items-center text-white px-8 pt-10">
         <h2 className="font-semibold text-xl sm:text-2xl">Escuela de Árbitro</h2>
         <MenuClose className="w-9 h-9 md:hidden" onClick={change} />
         <nav aria-label="Menú principal" className="hidden md:block">
