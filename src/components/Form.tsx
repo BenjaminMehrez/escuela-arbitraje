@@ -5,19 +5,26 @@ export default function Form() {
       <form
         action="https://formspree.io/f/tu-id-formulario"
         method="POST"
-        className="max-w-xl mx-auto space-y-4 text-left"
+        className="max-w-xl mx-auto space-y-4 text-left mt-10"
       >
         <input
           type="text"
           name="nombre"
-          placeholder="Tu nombre"
+          placeholder="Nombre Completo"
+          required
+          className="w-full p-3 border border-gray-300 rounded"
+        />
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Teléfono"
           required
           className="w-full p-3 border border-gray-300 rounded"
         />
         <input
           type="email"
           name="email"
-          placeholder="Tu correo"
+          placeholder="Correo Electrónico"
           required
           className="w-full p-3 border border-gray-300 rounded"
         />
